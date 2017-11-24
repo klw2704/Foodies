@@ -1,0 +1,30 @@
+body{
+  background: url("durham.jpg") repeat;
+  
+      }
+
+#banner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  max-width: 100%;
+  height: 20px;
+  z-index: 0;
+}
+
+img {
+    
+    padding: 3px; /* Some padding */
+    width: 150px; /* Set a small width */
+    height: 150px;
+}
+
+*{
+	font-family:'Consolas'
+}
+
+
+h3 {
+	font-size: 500px;
+}

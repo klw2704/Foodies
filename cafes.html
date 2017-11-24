@@ -2,24 +2,12 @@
 <html lang="en">
   <head> 
     <title>Cafe's</title>
+    <link rel='stylesheet' type='text/css' href='website.css'
        <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <style>
-body {
-  background: url("durham.jpg") repeat;
-}
-#banner {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  max-width: 100%;
-  height: 20px;
-  z-index: 0;
-}
-</style>
+      
 
  <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -29,7 +17,7 @@ body {
   <img id="banner" src="mybannerimage.gif" alt="Banner Image"/>
 
   <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar sticky-top navbar-dark bg-dark">
   <a class="navbar-brand" href="#">FOODIES</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -59,28 +47,20 @@ body {
   </div>
 </nav>
 
-
+<br /> 
 <!-- Main Body Content -->
 <!-- Flat White -->
 <h1> 
 <ul class="list-unstyled">
   <li class="media">
     
-    <!-- Need to put this in CSS -->
-<style>
-img {
-    
-    padding: 3px; /* Some padding */
-    width: 150px; /* Set a small width */
-}
-</style>
 
 <a target="_blank" href="https://flatwhitekitchen.com/">
-  <img src="flatwhite.jpg" alt="Flat White">
+  <img src="flatwhite.jpg" class="rounded-circle" alt="Flat White">
 </a>
     <div class="media-body">
-      <h5 class="mt-0 mb-1">Flat White</h5>
-      Durham's favourite coffee shop. 
+      <h2 class="mt-0 mb-1"><strong>Flat White</strong></h2>
+      <h3 >Durham's favourite coffee shop. </h3>
     </div>
   </li>
 
@@ -90,12 +70,12 @@ img {
   <li class="media">
    
 <a target="_blank" href="http://www.leonardscoffeehouse.co.uk/">
-  <img src="leonards.jpg" alt="Leonards">
+  <img src="leonards.jpg" class="rounded-circle" alt="Leonards">
 </a>
  
     <div class="media-body">
-      <h5 class="mt-0 mb-1">Leonard's Coffee House</h5>
-      A tucked away little coffee shop. 
+      <h2 class="mt-0 mb-1"><strong>Leonard's Coffee House</strong></h2>
+      <h3 >A tucked away little coffee shop. </h3>
     </div>
   </li>
 
@@ -105,14 +85,38 @@ img {
   <li class="media">
    
 <a target="_blank" href="https://www.facebook.com/Caf%C3%A9dral-Durham-1698397177102416/">
-  <img src="cafedral.jpg" alt="Cafedral">
+  <img src="cafedral.jpg" class="rounded-circle" alt="Cafedral">
 </a>
  
     <div class="media-body">
-      <h5 class="mt-0 mb-1">Cafédral</h5>
-      A quirky family run cafe situated near the Cathedral. 
+      <h2 class="mt-0 mb-1"> <strong>Cafédral </strong></h2>
+      <h3 >A quirky family run cafe situated near the Cathedral. </h3>
     </div>
   </li>
+
+  <!-- 9 Altars Cafe -->
+
+ <ul class="list-unstyled">
+  <li class="media">
+   
+<a target="_blank" href="http://www.9altarscafe.com/">
+  <img src="9altars.jpg" class="rounded-circle" alt="Cafedral">
+</a>
+ 
+    <div class="media-body">
+      <h2 class="mt-0 mb-1"><strong>9 Altars</strong></h2>
+      <h3 >The place to go for a big slice of freshly baked cake </h3>
+    </div>
+  
+<br />
+
+  <div id="frag_9" style="position:bottom;right:150px;top:150px;width:150px;height:150px; text-align:left;">
+    <iframe width="150" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.uk/maps?hl=en&amp;ie=UTF8&amp;q=9+altars&amp;fb=1&amp;gl=uk&amp;hq=9+altars&amp;hnear=Newcastle+Upon+Tyne&amp;cid=0,0,13609023956129380870&amp;ll=54.776051,-1.576881&amp;spn=0.007735,0.009656&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br />
+
+    </li>  
+
+
+</div>
 
 
 </ul>
@@ -127,4 +131,9 @@ img {
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   
 </body>
+
+<nav class="navbar bottom navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">FOODIES <em> of Durham <em></a>
+</nav>
+
 </html>
