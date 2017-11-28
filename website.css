@@ -17,18 +17,28 @@
   z-index: 0;
 }
 
-img {
+img.rounded-circle {
     
     padding: 3px; /* Some padding */
     width: 150px; /* Set a small width */
     height: 150px;
 }
 
-img:hover {
+img.rounded-circle:hover {
     opacity: 0.7;
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
 h2{
 	font-size: 5px;
+}
+
+.siteHeader{
+    width: 1219px;
+    height: 700px;
+    overflow: hidden;
+}
+
+.siteHeader .siteLogo{
+    margin: -100px;
 }
