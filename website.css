@@ -29,8 +29,8 @@ img.rounded-circle:hover {
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-h2{
-	font-size: 5px;
+h3{
+	font-size: 20px;
 }
 
 .siteHeader{
