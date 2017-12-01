@@ -24,11 +24,6 @@ img.rounded-circle {
     height: 150px;
 }
 
-img.rounded-circle:hover {
-    opacity: 0.7;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-}
-
 h3{
 	font-size: 20px;
 }
@@ -62,9 +57,13 @@ text-align: center;
 }
 
 
-.col-4 {
+.col-5 {
     display: block;
     left: 0;
     right: 0;
     text-align: center;
   }
+
+h1 {
+  text-align: center;
+}
