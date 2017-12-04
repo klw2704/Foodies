@@ -9,6 +9,7 @@
 
 *{
   font-family:'Courier New', Courier, monospace;
+  
   font-size: 13px;
   text-align: center;
   line-height: 10px;  
@@ -54,3 +55,8 @@ img.rounded-circle:hover {
 .navbar-brand {
   max-width: 100%;
 }
+
+ #map {
+        height: 400px;
+        width: 100%;
+       }
