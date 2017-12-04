@@ -54,3 +54,17 @@ form {
   right: 0;
   margin: auto;  
 }
+
+.social {
+min-height: 100%;
+padding-top: 50px;
+text-align: center;
+}
+
+
+.col-4 {
+    display: block;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
