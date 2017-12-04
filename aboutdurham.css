@@ -1,14 +1,17 @@
 #locator 
 {
-	position: absolute;
-	visibility: visible;
-	left: 1000px;
-	top: 275px;
-	z-index: 200;
+  position: absolute;
+  visibility: visible;
+  left: 800px;
+  top: 275px;
+  z-index: 200;
 }
 
 *{
-	font-family:'Courier New', Courier, monospace;	
+  font-family:'Courier New', Courier, monospace;
+  font-size: 13px;
+  text-align: center;
+  line-height: 10px;  
 }
 
   body {
@@ -38,10 +41,6 @@ img.rounded-circle:hover {
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-h3{
-	font-size: 20px;
-}
-
 .siteHeader{
     max-width: 100%;
     height: 700px;
@@ -53,5 +52,5 @@ h3{
 }
 
 .navbar-brand {
-	max-width: 100%;
+  max-width: 100%;
 }
