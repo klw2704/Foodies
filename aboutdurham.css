@@ -1,7 +1,3 @@
-*{
-  font-family:'Courier New', Courier, monospace;  
-}
-
 #locator 
 {
   position: absolute;
@@ -11,8 +7,6 @@
   z-index: 200;
 }
 
-<<<<<<< HEAD
-=======
 *{
   font-family:'Courier New', Courier, monospace;
   font-size: 13px;
@@ -20,7 +14,6 @@
   line-height: 10px;  
 }
 
->>>>>>> 7f260e8b873d9fa61a4cd92b5a50566e6156756e
   body {
     background: url("paper.jpg") repeat; 
     background-size: cover;
@@ -59,15 +52,5 @@ img.rounded-circle:hover {
 }
 
 .navbar-brand {
-<<<<<<< HEAD
-	max-width: 100%;
-}
-
-#map {
-        height: 400px;
-        width: 100%;
-       }
-=======
   max-width: 100%;
 }
->>>>>>> 7f260e8b873d9fa61a4cd92b5a50566e6156756e
