@@ -4,6 +4,7 @@
 
 body {
     background: url("paper.jpg") repeat; 
+    background-size: cover;
 }
 
 #banner {
