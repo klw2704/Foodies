@@ -1,25 +1,21 @@
-#locator 
-{
-  position: absolute;
-  visibility: visible;
-  left: 800px;
-  top: 275px;
-  z-index: 200;
-}
-
 *{
   font-family:'Courier New', Courier, monospace;
+ text-align: center;
+}
+
+body {
+ background: url("paper.jpg") repeat; 
+ background-size: cover;
+}
+
+p1 {
+  font-size: 25px;
+}
+
+p2{
+  font-size: 18px;
+}
   
-  font-size: 13px;
-  text-align: center;
-  line-height: 10px;  
-}
-
-  body {
-    background: url("paper.jpg") repeat; 
-    background-size: cover;
-}
-
 #banner {
   position: absolute;
   top: 0px;
